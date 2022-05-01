@@ -1,23 +1,20 @@
 import logo from './logo.svg';
+import WorkCard from './components/work-card';
+import { StyleGuide } from './theme/StyleGuide';
+import NavBar from './components/nav-bar';
 import './App.css';
+import ContentContainer from './components/content-container';
+import Portfolio from './pages/portfolio';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar/>
+
+    <ContentContainer>
+      <WorkCard/>
+    </ContentContainer>
+  
     </div>
   );
 }
