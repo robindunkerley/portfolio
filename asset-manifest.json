@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9afac97c.css",
+    "main.js": "/portfolio/static/js/main.e8b3ee1f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/v2-mockup.png": "/portfolio/static/media/v2-mockup.89a779ce5a289295456e.png",
+    "static/media/v2-hero-mockup.png": "/portfolio/static/media/v2-hero-mockup.7205e54959db88185f53.png",
+    "static/media/taconottaco-preview.png": "/portfolio/static/media/taconottaco-preview.85b7300698df06f60bf5.png",
+    "static/media/london-cloudy.png": "/portfolio/static/media/london-cloudy.651e361b860c9a6a1502.png",
+    "static/media/la-clear.png": "/portfolio/static/media/la-clear.bf19b0a7a6db950a9901.png",
+    "static/media/antarctica-icey.png": "/portfolio/static/media/antarctica-icey.cb43c2cc9daddd942a41.png",
+    "static/media/tokyo-clear-night.png": "/portfolio/static/media/tokyo-clear-night.73d4fb7c1f3db814c008.png",
+    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.9afac97c.css.map": "/portfolio/static/css/main.9afac97c.css.map",
+    "main.e8b3ee1f.js.map": "/portfolio/static/js/main.e8b3ee1f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9afac97c.css",
+    "static/js/main.e8b3ee1f.js"
+  ]
+}
