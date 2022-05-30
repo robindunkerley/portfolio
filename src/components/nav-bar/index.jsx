@@ -1,16 +1,27 @@
 import React from 'react'
-import { StyleGuide } from '../../theme/StyleGuide'
+import { StyleGuide } from '../../../../portfolio/src/theme/StyleGuide'
+import {Link, NavLink, useNavigate} from 'react-router-dom'
 
 
 function NavBar() {
+  const navigate = useNavigate()
 
   return (
     <div style={styles.navbar}>
       <span style={styles.name}>Robin Dunkerley</span>
       <div style={styles.itemsContainer}>
-          <span style={styles.navItem}>Portfolio</span>
-          <span style={styles.navItem}>Bio</span>
-          <span style={styles.navItem}>Contact</span>
+        <NavLink style={styles.navItem}  to='/'>
+          Profile
+        </NavLink>
+        <Link style={styles.navItem} to='/portfolio'>
+          Portfolio
+        </Link>
+        <Link style={styles.navItem} to='/contact'>
+          Contact
+        </Link>
+          
+          
+          
       </div>
     </div>
   )
@@ -33,7 +44,8 @@ const styles = {
       fontWeight: 300
     },
     itemsContainer: {
-      flex: 0.6,
+      flex: 0.7,
+
       maxWidth: '400px',
       display: 'flex',
       justifyContent: 'space-between',

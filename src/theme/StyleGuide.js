@@ -50,3 +50,16 @@ export const StyleGuide = {
       },
     },
   };
+
+  export const MobileStyles = {
+    heading: {
+      fontSize: StyleGuide.typography.title3.fontSize / 1.2,
+      fontWeight: 300,
+      color: StyleGuide.palette.black
+    },
+    subheading: {
+      color: 'grey',
+      fontWeight: 300,
+      fontSize: StyleGuide.typography.subhead.fontSize / 1.2
+    }
+  }

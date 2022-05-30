@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleGuide } from '../../../theme/StyleGuide'
+import { StyleGuide } from '../../../../../portfolio/src/theme/StyleGuide'
 
 const ListItemHeading = ({content}) => {
     return (
@@ -85,10 +85,9 @@ const styles = {
         color: 'grey'
       },
       blurb: {
-          fontSize: StyleGuide.typography.caption.fontSize * 1.2,
+          fontSize: StyleGuide.typography.caption.fontSize,
           fontWeight: 300,
           color: 'grey',
-
       }
 }
 
