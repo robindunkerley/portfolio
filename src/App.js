@@ -13,23 +13,32 @@ import React, {useState, useCallback, useEffect} from 'react'
 import ProfileMobile from './pages/mobile/profile-mobile';
 import ContactMobile from './pages/mobile/contact-mobile';
 import { Routes, Route, Link } from "react-router-dom";
+import styled from 'styled-components';
+import PortfolioDesktop from './pages/desktop/portfolio-desktop'
+import { device } from './static/device';
+
+const MobileSite = styled.div`
+
+`
 
 function App() {
 
   return (
     <div className="App">
       <NavBar/>
-      <Routes>
-        <Route path='/' element={<ProfileMobile authed={true}/>}/>
-        <Route path='/portfolio' element={<PortfolioMobile/>} />
-        <Route path='/contact' element={<ContactMobile/>}/>
-      </Routes>
+      {/* <MobileSite>
+        <Routes>
+          <Route path='/' element={<ProfileMobile authed={true}/>}/>
+          <Route path='/portfolio' element={<PortfolioMobile/>} />
+          <Route path='/contact' element={<ContactMobile/>}/>
+        </Routes>
+      </MobileSite> */}
+      
+      <PortfolioDesktop/>
 
-
-
-    <div className='footer' style={styles.footerContainer}>
+    {/* <div className='footer' style={styles.footerContainer}>
       <span style={styles.footerText}>Created by Robin Dunkerley</span>
-    </div>
+    </div> */}
     
   
     </div>

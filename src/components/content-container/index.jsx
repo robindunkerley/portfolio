@@ -36,7 +36,6 @@ const styles = {
     paddingBottom: StyleGuide.spacingLarge * 2,
     marginBottom: StyleGuide.spacingLarge,
     minHeight: '400px',
-
     borderRadius: 20,
     display: 'flex',
     flexDirection: 'column',

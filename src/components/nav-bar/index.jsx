@@ -1,5 +1,5 @@
 import React from 'react'
-import { StyleGuide } from '../../../../portfolio/src/theme/StyleGuide'
+import { StyleGuide } from '../../theme/StyleGuide' 
 import {Link, NavLink, useNavigate} from 'react-router-dom'
 
 

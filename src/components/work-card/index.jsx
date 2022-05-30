@@ -13,13 +13,15 @@ function getWindowDimensions() {
   };
 }
 
+
+
 const {width} = getWindowDimensions()
 const ratio = 228 / 362
 const CARD_WIDTH = width * 1.2;
 const CARD_HEIGHT = CARD_WIDTH * ratio;
 
 
-function WorkCard({projectName, techStack, }) {
+function WorkCard({projectName, techStack, projectBrief, projectLinks}) {
 
   return (
 
@@ -32,9 +34,11 @@ function WorkCard({projectName, techStack, }) {
           <ProjectListItem heading='Project' subheading={projectName}/>
           <ProjectListItem heading='Built Using...' subheading={techStack}/>
           <ProjectListItemBlurb heading='Project Brief' 
-          content='Project for a local food business. The brief was to create an easily expandable, stylistically minimal single page website with a modern feel.
-          I met the demands of the brief by implementing a block based theme. This gave the site a modern feel, and also meant that the client could easily expand the page with more blocks.'/>
-          <ProjectListItemLinks heading='Links' links={links}/>
+          content={projectBrief}/>
+          {!!projectLinks ? (
+            <ProjectListItemLinks heading='Links' links={projectLinks}/>
+          ) : null}
+        
         </div>
         <div style={styles.iconContainer}>
           <KeyboardArrowDownIcon htmlColor={StyleGuide.palette.grey} />

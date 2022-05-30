@@ -39,6 +39,9 @@ export const StyleGuide = {
       subhead: {
         fontSize: 15,
       },
+      titleDesktop: {
+        fontSize: 68,
+      },
       title1: {
         fontSize: 34,
       },
