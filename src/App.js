@@ -37,6 +37,7 @@ function App() {
 
         <Routes>
           <Route path='/' element={<PortfolioDesktop/>} />
+          <Route path='/portfolio' element={<PortfolioDesktop/>} />
           <Route path='/profile' element={<ProfileMobile authed={true}/>}/>
 
         </Routes>
