@@ -16,6 +16,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import styled from 'styled-components';
 import PortfolioDesktop from './pages/desktop/portfolio-desktop'
 import { device } from './static/device';
+import {Helmet} from "react-helmet";
 
 const MobileSite = styled.div`
 
@@ -25,6 +26,13 @@ function App() {
 
   return (
     <div className="App">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Robin Dunkerley</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Robin Dunkerley's developer portfolio" />
+      </Helmet>
+
       <NavBar/>
 
         <Routes>
