@@ -20,10 +20,10 @@ const styles = {
         marginBottom: StyleGuide.spacingLarge * 1.8
     },
     titleContainer: {
-        marginBottom: StyleGuide.spacingSmall / 2,
+        marginBottom: StyleGuide.spacingSmall * 1.5,
     },
     title: {
-        fontSize: StyleGuide.typography.title3.fontSize / 1.2,
+        fontSize: StyleGuide.typography.title3.fontSize * 1.4,
         fontWeight: 300,
         color: StyleGuide.palette.black
       },

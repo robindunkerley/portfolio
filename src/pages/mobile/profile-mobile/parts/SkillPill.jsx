@@ -1,5 +1,7 @@
 import React from 'react'
 import { StyleGuide } from '../../../../theme/StyleGuide'
+import styled from 'styled-components'
+
 
 const SkillPill = ({skill, color = StyleGuide.palette.greyLight}) => {
     const skillPillStyle = {...styles.gridItem, backgroundColor: `rgba(${color}, 0.9)`}
@@ -36,7 +38,7 @@ const styles = {
         backgroundColor: StyleGuide.palette.greyDark
       },
       skillText: {
-        fontSize: StyleGuide.typography.caption.fontSize * 1.1,
+        fontSize: StyleGuide.typography.caption.fontSize * 1.5,
         fontWeight: 300,
       }
 }

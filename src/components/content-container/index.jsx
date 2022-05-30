@@ -29,7 +29,8 @@ const styles = {
   title: {
       ...StyleGuide.typography.title1,
       paddingLeft: StyleGuide.paddingHorizontal,
-      fontWeight: 200
+      fontWeight: 200,
+
   },
   contentBordered: {
     paddingTop: StyleGuide.spacingLarge * 2,

@@ -26,20 +26,20 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
-      {/* <MobileSite>
+
         <Routes>
-          <Route path='/' element={<ProfileMobile authed={true}/>}/>
-          <Route path='/portfolio' element={<PortfolioMobile/>} />
-          <Route path='/contact' element={<ContactMobile/>}/>
+          <Route path='/' element={<PortfolioDesktop/>} />
+          <Route path='/profile' element={<ProfileMobile authed={true}/>}/>
+
         </Routes>
-      </MobileSite> */}
+
       
-      <PortfolioDesktop/>
+  
 
     {/* <div className='footer' style={styles.footerContainer}>
       <span style={styles.footerText}>Created by Robin Dunkerley</span>
-    </div> */}
-    
+    </div>
+     */}
   
     </div>
   );
@@ -47,12 +47,14 @@ function App() {
 
 const styles = {
   footerContainer: {
-    justifySelf: 'flex-end'
-
+    display: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0
   },
   footerText: {
     fontSize: StyleGuide.typography.caption.fontSize,
-  
+    color: 'green',
     fontWeight: 200
   }
 }

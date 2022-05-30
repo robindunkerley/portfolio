@@ -11,13 +11,10 @@ function NavBar() {
       <span style={styles.name}>Robin Dunkerley</span>
       <div style={styles.itemsContainer}>
         <NavLink style={styles.navItem}  to='/'>
-          Profile
-        </NavLink>
-        <Link style={styles.navItem} to='/portfolio'>
           Portfolio
-        </Link>
-        <Link style={styles.navItem} to='/contact'>
-          Contact
+        </NavLink>
+        <Link style={styles.navItem} to='/profile'>
+          Profile
         </Link>
           
           
@@ -44,18 +41,20 @@ const styles = {
       fontWeight: 300
     },
     itemsContainer: {
-      flex: 0.7,
+      flex: 0.5,
 
-      maxWidth: '400px',
+
+      maxWidth: '200px',
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center'
     },
     navItem: {
-      fontSize: StyleGuide.typography.callout.fontSize / 1.25,
+      fontSize: StyleGuide.typography.callout.fontSize,
       margin: '0 2px 0 2px',
       fontWeight: 300,
-      textDecoration: 'underline'
+      textDecoration: 'underline',
+      color: 'grey'
     }
 }
 
