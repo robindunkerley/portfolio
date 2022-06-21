@@ -10,12 +10,7 @@ function NavBar() {
     <div style={styles.navbar}>
       <span style={styles.name}>Robin Dunkerley</span>
       <div style={styles.itemsContainer}>
-        <a href='' style={styles.navItem}>
-          Portfolio
-        </a>
-        <a style={styles.navItem}>
-          Profile
-        </a>
+
 
 
         <NavLink style={styles.navItem}  to='/'>

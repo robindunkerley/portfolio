@@ -16,7 +16,7 @@ const DotButton = ({ selected, onClick }) => (
 const Image = styled.img`
     width: 100%;
     height: 100%;
-  aspect-ratio: 16/9;
+    aspect-ratio: 16/9;
   
   @media ${device.mediaMinLarge} {
 
@@ -42,7 +42,6 @@ const ImageBorder = styled.div`
     width: 90%;
     @media ${device.mediaMinLarge} {
         width: 500px;
-
     }
 `
 
