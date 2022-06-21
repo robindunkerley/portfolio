@@ -41,7 +41,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    borderTop: '0.5px solid black',
+    borderTop: '1px solid black',
     width: '100%',
   }
 }
