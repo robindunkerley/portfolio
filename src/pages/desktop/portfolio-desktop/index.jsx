@@ -9,6 +9,7 @@ import Carousel from './parts/Carousel'
 import { myProjects } from '../../../data/projects'
 import ZealMatch from './projects/ZealMatch'
 import CalmWeather from './projects/CalmWeather'
+import ZealWebsite from './projects/ZealWebsite'
 
 
 export const Wrapper = styled.div`
@@ -45,7 +46,6 @@ export const TextContainer = styled.div`
 `
 
 export const SectionRight = styled.div`
-  height: 100%;
   @media ${device.mediaMinLarge} {
     width: 40%;
   }
@@ -104,11 +104,9 @@ const PortfolioDesktop = () => {
 
   return (
     <DesktopContentContainer title='Portfolio'>
+      <ZealWebsite/>
       <ZealMatch/>
       <CalmWeather/>
-
-
-  
     </DesktopContentContainer>
   )
 }

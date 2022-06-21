@@ -4,6 +4,8 @@ import London from './calmweather-mockups/london-cloudy.png'
 import Tokyo from './calmweather-mockups/tokyo-clear-night.png'
 import ZealMockup1 from './zeal-mockups/v2-hero-mockup.png'
 import ZealMockup2 from './zeal-mockups/v2-mockup.png'
+import ZealGif from './zeal-website-content/zealGif.gif'
 
 export const calmWeatherImages = [La, Antarctica, London, Tokyo];
 export const zealImages = [ZealMockup2];
+export const zealWebsiteContent = [ZealGif];

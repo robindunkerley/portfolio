@@ -23,7 +23,7 @@ const DesktopContentContainer = ({title = 'Title', border, ...props}) => {
         width: '100%',
         textAlign: 'left',
         marginTop: StyleGuide.spacingLarge * 1.5,
-        marginBottom: StyleGuide.spacingMedium,
+        marginBottom: StyleGuide.spacingMedium * 1.8,
     },
     title: {
         ...StyleGuide.typography.title1,
