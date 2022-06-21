@@ -56,19 +56,19 @@ const CalmWeather = () => {
     <SectionLeft>
     <TextContainer>
       <Heading>Project</Heading>
-      <SubHeading>{myProjects[1].projectName}</SubHeading>
+      <SubHeading>{myProjects[2].projectName}</SubHeading>
     </TextContainer>
     <TextContainer>
       <Heading>Built Using...</Heading>
-      <TechSubheading>{myProjects[1].techStack}</TechSubheading>
+      <TechSubheading>{myProjects[2].techStack}</TechSubheading>
     </TextContainer>
     <TextContainer>
       <Heading>Project Brief</Heading>
-      <Blurb>{myProjects[1].projectBrief}</Blurb>
+      <Blurb>{myProjects[2].projectBrief}</Blurb>
     </TextContainer>
     <TextContainer>
       <Heading>Links</Heading>
-      {myProjects[1].links.map((link) => {
+      {myProjects[2].links.map((link) => {
         return  <Link href={link}>{link}</Link>
       })}
 
@@ -81,7 +81,7 @@ const CalmWeather = () => {
         <div className="embla__viewport" ref={viewportRef}>
             <div className="embla__container">
 
-                {myProjects[1].images.map((image) => {
+                {myProjects[2].images.map((image) => {
                     return (
                     <div className="embla__slide">
                         <Image src={image} style={{width: '321px', height: '648.75px'}}/>
