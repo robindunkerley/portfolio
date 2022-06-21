@@ -14,7 +14,8 @@ const DotButton = ({ selected, onClick }) => (
 );
 
 const Image = styled.img`
-  height: 270px;
+    width: 100%;
+    height: 100%;
   aspect-ratio: 16/9;
   
   @media ${device.mediaMinLarge} {
@@ -34,8 +35,15 @@ const ImageContainer = styled.div`
 const ImageBorder = styled.div`
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     background-color: white;
-    padding: 5%;
+    display: flex;
+    justify-content: center;
+    padding: 4%;
     border-radius: 10px;
+    width: 90%;
+    @media ${device.mediaMinLarge} {
+        width: 500px;
+
+    }
 `
 
 const ZealWebsite = () => {
